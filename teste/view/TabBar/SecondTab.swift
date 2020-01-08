@@ -64,7 +64,7 @@ struct SecondTab: View {
                     self.gameOver = true
                 }
             }){
-                Text("Try the game").bold().foregroundColor(.white).frame(width: 150, height: 40, alignment: .center).background(Color.purple).cornerRadius(20)
+                Text("Try to guess").bold().foregroundColor(.white).frame(width: 150, height: 40, alignment: .center).background(Color.purple).cornerRadius(20)
             }.alert(isPresented: $showingAlert) {
                 if (gameOver){
                     return Alert(title: Text("Game Over"), message: Text("Sorry, but you didnt select the right number."), dismissButton: .default(Text("Try Again!"), action: {
