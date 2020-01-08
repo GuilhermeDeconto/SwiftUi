@@ -18,9 +18,12 @@ struct SliderView: View {
             if (segmentedControl == 1){
                 Slider(value: $selectedInt, in: 0...50, step: 1)
                 Text("50")
-            }else{
+            }else if (segmentedControl == 0){
                 Slider(value: $selectedInt, in: 0...20, step: 1)
                 Text("20")
+            }else{
+                Slider(value: $selectedInt, in: 0...100, step: 1)
+                Text("100")
             }
         }
     }

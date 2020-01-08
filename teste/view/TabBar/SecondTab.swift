@@ -15,14 +15,25 @@ struct SecondTab: View {
     @State var segmentedControl = 0
     @State var showingAlert = false
     
+    @State private var difficulty = ["Easy","Hard","Impossible"] //Another way to make the picker
+    
     var body: some View {
         VStack{
-            Picker(selection: $segmentedControl, label: Text("Game")) {
-                Text("Easy").tag(0)
-                Text("Hard").tag(1)
-            }.pickerStyle(SegmentedPickerStyle())
             
-            Text("Value: \(segmentedControl)")
+//            Picker(selection: $segmentedControl, label: Text("Game")) {
+//                Text("Easy").tag(0)
+//                Text("Hard").tag(1)
+//            }.pickerStyle(SegmentedPickerStyle())
+            
+            
+            Picker("Game", selection: $segmentedControl) {
+                ForEach(0 ..< difficulty.count) { index in
+                    Text(self.difficulty[index]).tag(index)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            
+//            Text("Value: \(segmentedControl)")    Check Difficulty debug
             
             Spacer()
             HStack{
@@ -41,7 +52,7 @@ struct SecondTab: View {
                 Spacer()
             }
             
-            Text("Selected Value is \(Int(selectedInt))")
+//            Text("Selected Value is \(Int(selectedInt))")    Check selected value debug
             
             Spacer()
             
@@ -72,8 +83,10 @@ struct SecondTab: View {
     func genRandomInt(difficulty: Int){
         if (segmentedControl == 1){
             self.randomInt = Int.random(in: 1...50)
-        }else{
+        }else if (segmentedControl == 0){
             self.randomInt = Int.random(in: 1...20)
+        }else {
+            self.randomInt = Int.random(in: 1...100)
         }
     }
 }
