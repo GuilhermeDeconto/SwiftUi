@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+//Work in progress
+
 struct RatingView: View {
     @Binding var rating: Int
     
