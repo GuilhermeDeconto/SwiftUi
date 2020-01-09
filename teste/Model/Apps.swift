@@ -17,6 +17,8 @@ struct Apps: Identifiable, Hashable {
     var inAppPurchase: Bool = false
     var image: String = ""
     
+    var moreData: [Apps] = []
+    
 }
 //let testData = [
 //    Apps(name: "Dig This!", description: "Digging puzzles? Dig this!", inAppPurchase: true, image: "dig"),

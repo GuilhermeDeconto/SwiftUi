@@ -32,7 +32,7 @@ struct ThirdTab: View {
         ScrollView {
             VStack{
                 ForEach(aplication, id: \.self) { app in
-                    TableView(image: app.image, title: app.name, description: app.description, inAppPurchase: app.inAppPurchase)
+                    TableView(image: app.image, title: app.name, description: app.description, inAppPurchase: app.inAppPurchase, moreData: app.moreData)
                 }
             }
         }
