@@ -33,7 +33,7 @@ struct SecondTab: View {
             }
             .pickerStyle(SegmentedPickerStyle())
             
-//            Text("Value: \(segmentedControl)")    Check Difficulty debug
+            Text("Value: \(segmentedControl)")    //Check Difficulty debug
             
             Spacer()
             HStack{
@@ -52,7 +52,7 @@ struct SecondTab: View {
                 Spacer()
             }
             
-//            Text("Selected Value is \(Int(selectedInt))")    Check selected value debug
+            Text("Selected Value is \(Int(selectedInt))")   // Check selected value debug
             
             Spacer()
             

@@ -22,6 +22,16 @@ struct ContentView: View {
                     Image(systemName: "phone.fill")
                     Text("Second Tab")
             }
+            ThirdTab()
+                .tabItem {
+                    Image(systemName: "arrow.up.right.video.fill")
+                    Text("Third Tab")
+            }
+            FourthTab()
+                .tabItem {
+                    Image(systemName: "bolt.horizontal.icloud.fill")
+                    Text("Fourth Tab")
+            }
         }
     }
 }
