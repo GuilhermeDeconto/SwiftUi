@@ -77,6 +77,7 @@ struct FirstTab: View {
                 
                 ScrollView(.horizontal){
                     HStack{
+                        
                         Image("imagem1").resizable().frame(width: 270, height: 500, alignment: .center)
                         Image("imagem2").resizable().frame(width: 270, height: 500, alignment: .center)
                         Image("imagem1").resizable().frame(width: 270, height: 500, alignment: .center)
