@@ -13,6 +13,7 @@ struct FirstTab: View {
     @State var showingAlert = false
     @State var isappDownloaded = false
     @State var showingShare = false
+    @State var rating: Int
     
     var body: some View {
         VStack {
@@ -48,26 +49,7 @@ struct FirstTab: View {
                                 .bold()
                                 .foregroundColor(.gray)
                                 .font(.system(size: 20)).frame(width: 35, height: 20, alignment: .center)
-                            //RatingView(rating: $rating)
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.gray)
-                                .frame(width: 10, height: 10, alignment: .center)
-                            
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.gray)
-                                .frame(width: 12, height: 10, alignment: .center)
-                            
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.gray)
-                                .frame(width: 12, height: 10, alignment: .center)
-                            
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.gray)
-                                .frame(width: 12, height: 10, alignment: .center)
-                            
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.gray)
-                                .frame(width: 12, height: 10, alignment: .center)
+                            RatingView(rating: $rating)
                         }
                         Text("105K Ratings").foregroundColor(.gray).font(.system(size: 10))
                     }

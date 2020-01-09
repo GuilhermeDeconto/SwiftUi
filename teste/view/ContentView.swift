@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            FirstTab()
+            FirstTab(rating: 4)
                 .tabItem {
                     Image(systemName: "tv.fill")
                     Text("First Tab")
