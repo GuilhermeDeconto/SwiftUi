@@ -20,8 +20,8 @@ struct AppStoreList: View {
     var inAppPurchase: Bool
     
     var body: some View {
-       HStack {
-        Image(image)
+        HStack {
+            Image(image)
                 .resizable()
                 .frame(width: 150, height: 150, alignment: .center)
                 .cornerRadius(30)
@@ -46,9 +46,3 @@ struct AppStoreList: View {
         } .padding(20)
     }
 }
-
-//struct AppStoreList_Previews: PreviewProvider {
-//    static var previews: some View {
-//        AppStoreList()
-//    }
-//}

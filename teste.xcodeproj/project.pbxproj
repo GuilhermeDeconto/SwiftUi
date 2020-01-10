@@ -12,6 +12,20 @@
 		4640974F23C666C400AFDB77 /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640974E23C666C400AFDB77 /* FirstTab.swift */; };
 		4640975323C6683D00AFDB77 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640975223C6683D00AFDB77 /* SliderView.swift */; };
 		4669F41023C76F1D00867D8E /* DescriptionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669F40F23C76F1D00867D8E /* DescriptionImage.swift */; };
+		467E264423C8EA5D001CCCC9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264323C8EA5D001CCCC9 /* SignInView.swift */; };
+		467E264623C8EA97001CCCC9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264523C8EA97001CCCC9 /* Settings.swift */; };
+		467E264823C8EAB2001CCCC9 /* WifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264723C8EAB2001CCCC9 /* WifiView.swift */; };
+		467E264A23C8EAD8001CCCC9 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264923C8EAD8001CCCC9 /* Option.swift */; };
+		467E264C23C8EAFE001CCCC9 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264B23C8EAFE001CCCC9 /* BluetoothView.swift */; };
+		467E264E23C8EB24001CCCC9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264D23C8EB24001CCCC9 /* ActivityIndicator.swift */; };
+		467E265023C8EE19001CCCC9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E264F23C8EE19001CCCC9 /* SettingsView.swift */; };
+		467E265223C8EE44001CCCC9 /* OptionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265123C8EE44001CCCC9 /* OptionRow.swift */; };
+		467E265423C8EE5A001CCCC9 /* OptionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265323C8EE5A001CCCC9 /* OptionSettingsView.swift */; };
+		467E265623C8EEB4001CCCC9 /* OptionInnerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265523C8EEB4001CCCC9 /* OptionInnerDetail.swift */; };
+		467E265823C8EECA001CCCC9 /* OptionInnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265723C8EECA001CCCC9 /* OptionInnerView.swift */; };
+		467E265A23C8EF28001CCCC9 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265923C8EF28001CCCC9 /* ToggleView.swift */; };
+		467E265C23C8EF46001CCCC9 /* InnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265B23C8EF46001CCCC9 /* InnerView.swift */; };
+		467E265E23C8EF61001CCCC9 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E265D23C8EF61001CCCC9 /* EndView.swift */; };
 		467F800723C7967600502713 /* ThirdTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F800623C7967600502713 /* ThirdTab.swift */; };
 		467F800923C796DC00502713 /* AppStoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F800823C796DC00502713 /* AppStoreList.swift */; };
 		467F800C23C7984500502713 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F800B23C7984500502713 /* Apps.swift */; };
@@ -52,6 +66,20 @@
 		4640974E23C666C400AFDB77 /* FirstTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
 		4640975223C6683D00AFDB77 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		4669F40F23C76F1D00867D8E /* DescriptionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionImage.swift; sourceTree = "<group>"; };
+		467E264323C8EA5D001CCCC9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		467E264523C8EA97001CCCC9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		467E264723C8EAB2001CCCC9 /* WifiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiView.swift; sourceTree = "<group>"; };
+		467E264923C8EAD8001CCCC9 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		467E264B23C8EAFE001CCCC9 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		467E264D23C8EB24001CCCC9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		467E264F23C8EE19001CCCC9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		467E265123C8EE44001CCCC9 /* OptionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionRow.swift; sourceTree = "<group>"; };
+		467E265323C8EE5A001CCCC9 /* OptionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSettingsView.swift; sourceTree = "<group>"; };
+		467E265523C8EEB4001CCCC9 /* OptionInnerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionInnerDetail.swift; sourceTree = "<group>"; };
+		467E265723C8EECA001CCCC9 /* OptionInnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionInnerView.swift; sourceTree = "<group>"; };
+		467E265923C8EF28001CCCC9 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		467E265B23C8EF46001CCCC9 /* InnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerView.swift; sourceTree = "<group>"; };
+		467E265D23C8EF61001CCCC9 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
 		467F800623C7967600502713 /* ThirdTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTab.swift; sourceTree = "<group>"; };
 		467F800823C796DC00502713 /* AppStoreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreList.swift; sourceTree = "<group>"; };
 		467F800B23C7984500502713 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
@@ -123,6 +151,27 @@
 				46C11BBD23C7ADCB00612596 /* SectionHeader.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		467E264223C8EA4E001CCCC9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				467E264323C8EA5D001CCCC9 /* SignInView.swift */,
+				467E264523C8EA97001CCCC9 /* Settings.swift */,
+				467E264723C8EAB2001CCCC9 /* WifiView.swift */,
+				467E264923C8EAD8001CCCC9 /* Option.swift */,
+				467E264B23C8EAFE001CCCC9 /* BluetoothView.swift */,
+				467E264D23C8EB24001CCCC9 /* ActivityIndicator.swift */,
+				467E264F23C8EE19001CCCC9 /* SettingsView.swift */,
+				467E265123C8EE44001CCCC9 /* OptionRow.swift */,
+				467E265323C8EE5A001CCCC9 /* OptionSettingsView.swift */,
+				467E265523C8EEB4001CCCC9 /* OptionInnerDetail.swift */,
+				467E265723C8EECA001CCCC9 /* OptionInnerView.swift */,
+				467E265923C8EF28001CCCC9 /* ToggleView.swift */,
+				467E265B23C8EF46001CCCC9 /* InnerView.swift */,
+				467E265D23C8EF61001CCCC9 /* EndView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		467F800A23C7982000502713 /* Model */ = {
@@ -198,6 +247,7 @@
 		46EB10F423C64407007ECC66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				467E264223C8EA4E001CCCC9 /* Settings */,
 				4640975023C6673900AFDB77 /* TabBar */,
 				46EB10C023C4F7FD007ECC66 /* ContentView.swift */,
 			);
@@ -336,20 +386,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				46EB10BD23C4F7FD007ECC66 /* AppDelegate.swift in Sources */,
+				467E264C23C8EAFE001CCCC9 /* BluetoothView.swift in Sources */,
 				4640975323C6683D00AFDB77 /* SliderView.swift in Sources */,
 				46C11BBE23C7ADCB00612596 /* SectionHeader.swift in Sources */,
 				4640974F23C666C400AFDB77 /* FirstTab.swift in Sources */,
 				46C11BBC23C7A9E800612596 /* TableView.swift in Sources */,
 				46EB10BF23C4F7FD007ECC66 /* SceneDelegate.swift in Sources */,
+				467E264623C8EA97001CCCC9 /* Settings.swift in Sources */,
+				467E265423C8EE5A001CCCC9 /* OptionSettingsView.swift in Sources */,
+				467E264423C8EA5D001CCCC9 /* SignInView.swift in Sources */,
 				4669F41023C76F1D00867D8E /* DescriptionImage.swift in Sources */,
 				467F800923C796DC00502713 /* AppStoreList.swift in Sources */,
 				467F800723C7967600502713 /* ThirdTab.swift in Sources */,
 				4640974B23C64BD900AFDB77 /* AppDownloadedButton.swift in Sources */,
+				467E264A23C8EAD8001CCCC9 /* Option.swift in Sources */,
 				46EB10C123C4F7FD007ECC66 /* ContentView.swift in Sources */,
+				467E265A23C8EF28001CCCC9 /* ToggleView.swift in Sources */,
+				467E264E23C8EB24001CCCC9 /* ActivityIndicator.swift in Sources */,
 				467F800C23C7984500502713 /* Apps.swift in Sources */,
+				467E265223C8EE44001CCCC9 /* OptionRow.swift in Sources */,
+				467E265623C8EEB4001CCCC9 /* OptionInnerDetail.swift in Sources */,
+				467E265823C8EECA001CCCC9 /* OptionInnerView.swift in Sources */,
 				46EB113523C64623007ECC66 /* RatingView.swift in Sources */,
 				46C11BBA23C7A75300612596 /* FourthTab.swift in Sources */,
+				467E264823C8EAB2001CCCC9 /* WifiView.swift in Sources */,
+				467E265C23C8EF46001CCCC9 /* InnerView.swift in Sources */,
 				4640974D23C6628F00AFDB77 /* SecondTab.swift in Sources */,
+				467E265023C8EE19001CCCC9 /* SettingsView.swift in Sources */,
+				467E265E23C8EF61001CCCC9 /* EndView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
