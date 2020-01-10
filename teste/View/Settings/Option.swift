@@ -28,7 +28,7 @@ struct InnerOptionValues: Codable {
 
 extension Option {
     static let generalValues: [InnerOptionValues] = [
-        .init(title: "About", isAddSection: true, isUseToggle: false, headerTitle: ""),
+        .init(title: "About", isAddSection: true, isUseToggle: false, headerTitle: "About Us"),
         .init(title: "Keyboard", isAddSection: false, isUseToggle: false, headerTitle: "", image: "keyboard"),
         .init(title: "Fonts", isAddSection: false, isUseToggle: false, headerTitle: "", image: "message"),
         .init(title: "Language & Region", isAddSection: false, isUseToggle: false, headerTitle: "", image: "mic"),
@@ -59,7 +59,7 @@ extension Option {
         .init(title: "HomeKit", isAddSection: false, isUseToggle: false, headerTitle: ""),
         .init(title: "Media & Apple Music", isAddSection: false, isUseToggle: false, headerTitle: ""),
         .init(title: "Files & Folders", isAddSection: false, isUseToggle: false, headerTitle: ""),
-        .init(title: "Advertising", isAddSection: true, isUseToggle: false, headerTitle: "")
+        .init(title: "Advertising", isAddSection: true, isUseToggle: false, headerTitle: "Marketing")
     ]
     
     static let passwordAndAccountsValues: [InnerOptionValues] = [
@@ -98,10 +98,10 @@ extension Option {
         .init(title: "Siri & Search", isAddSection: true, isUseToggle: false, headerTitle: "ALLOW NEWS TO ACCESS"),
         .init(title: "Background App Refresh", isAddSection: false, isUseToggle: true, headerTitle: ""),
         .init(title: "Show Story Previews", isAddSection: true, isUseToggle: true, headerTitle: "NEWS SETTINGS"),
-        .init(title: "Restrict Stories in Today", isAddSection: true, isUseToggle: true, headerTitle: ""),
+        .init(title: "Restrict Stories in Today", isAddSection: true, isUseToggle: true, headerTitle: "Privacy"),
         .init(title: "Privacy", isAddSection: false, isUseToggle: false, headerTitle: ""),
         .init(title: "Reset Identifier", isAddSection: false, isUseToggle: true, headerTitle: ""),
-        .init(title: "Acknowledgements", isAddSection: true, isUseToggle: false, headerTitle: "")
+        .init(title: "Acknowledgements", isAddSection: true, isUseToggle: false, headerTitle: "Terms of Use")
     ]
     
     static let developerValues: [InnerOptionValues] = [
